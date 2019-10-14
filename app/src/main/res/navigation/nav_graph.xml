@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pauriFrag">
+
+
+    <fragment
+        android:id="@+id/pauriFrag"
+        android:name="com.github.mausam1.PauriFrag"
+        android:label="fragment_pauri"
+        tools:layout="@layout/fragment_pauri" >
+        <action
+            android:id="@+id/action_pauriFrag_to_dehradunFrag"
+            app:destination="@id/dehradunFrag" />
+        <action
+            android:id="@+id/action_pauriFrag_to_roorkee"
+            app:destination="@id/roorkee" />
+    </fragment>
+    <fragment
+        android:id="@+id/dehradunFrag"
+        android:name="com.github.mausam1.DehradunFrag"
+        android:label="fragment_dehradun"
+        tools:layout="@layout/fragment_dehradun" />
+    <fragment
+        android:id="@+id/roorkee"
+        android:name="com.github.mausam1.Roorkee"
+        android:label="fragment_roorkee"
+        tools:layout="@layout/fragment_roorkee" />
+</navigation>

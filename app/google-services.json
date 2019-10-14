@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "26159574665",
+    "firebase_url": "https://mausam1.firebaseio.com",
+    "project_id": "mausam1",
+    "storage_bucket": "mausam1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26159574665:android:d43181deae865bb53f6058",
+        "android_client_info": {
+          "package_name": "com.github.mausam1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26159574665-jsmbsfej3m13khdg843vo9dtlcgh2162.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.mausam1",
+            "certificate_hash": "318c323aa3b8d58bc5056406bcac832ab2395187"
+          }
+        },
+        {
+          "client_id": "26159574665-9onbdufm4gkro9jav7flir50a4bn5ne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOdCmM9b-cGbLFFwgrJdPyb1NTUgRaDE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26159574665-9onbdufm4gkro9jav7flir50a4bn5ne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
