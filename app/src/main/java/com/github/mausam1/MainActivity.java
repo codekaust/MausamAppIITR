@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         ddn_btn = findViewById(R.id.btn_ddn);
         pauri_btn = findViewById(R.id.btn_pauri);
 
+        //initially
+        pauri_btn.setBackgroundColor(getResources().getColor(R.color.orange));
+
         roorkee_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
